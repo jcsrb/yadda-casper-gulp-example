@@ -1,0 +1,23 @@
+{
+    "name": "yadda-tests",
+    "version": "0.0.1",
+    "description": "Tests with Yadda and CasperJS",
+    "main": "test.js",
+    "scripts": {
+        "test": "./yadda.sh . results/"
+    },
+    "author": "You",
+    "license": "",
+    "dependencies": {
+        "yadda": "^0.10.0",
+        "async": "^0.2.10",
+        "process": "^0.6.0",
+        "casperjs": "^1.1.0-beta3",
+        "underscore": "^1.6.0"
+    },
+    "devDependencies": {
+        "gulp": "^3.5.5",
+        "gulp-exec": "^1.0.4",
+        "gulp-util": "^2.2.14"
+    }
+}
